@@ -7,6 +7,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing() {
+  var KatzDeliLine = [];
   var person = katzDeliLine[0];
     if(katzDeliLine.length > 0) {
     katzDeliLine = katzDeliLine.splice(0, 1);
